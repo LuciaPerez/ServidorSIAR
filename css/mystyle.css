@@ -1,0 +1,249 @@
+.font{
+	font:normal 1em "Open Sans", Arial, Helvetica, sans-serif;
+	color: #2C3E50;
+}
+select, .inputad{
+	width: 100% !important;	
+}
+.menuButton {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	border-radius: 4px;
+	color: #337ab7;
+	text-decoration: none;
+	background: transparent;
+	border-style: none;  
+	width: 100%;
+  	text-align: left;
+}
+
+.activeMenu{
+	background-color: #337ab7;	
+	border-radius: 4px;
+}
+.activeMenu .menuButton{
+	color: #fff;
+}
+.myDivider{
+	border-top: solid 1px #337ab7;	
+}
+label{
+	color: #337ab7 !important;	
+}
+.tabs{
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	color: #337ab7;
+	text-decoration: none;
+	background: transparent;	
+}
+.activeTab{
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;	
+}
+
+.popup{
+	margin:15px;
+}
+
+.my-icon{
+	height:50%;	
+}
+
+.custom-combobox {
+	position: relative;
+	display: inline-block;
+}
+.custom-combobox-toggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-left: -1px;
+	padding: 0;
+}
+.custom-combobox-input {
+	margin: 0;
+	padding: 5px 10px;
+}
+
+.pagination{
+	float:left;	
+}
+.pagination>li>input{
+	margin-left: 0;
+	/*border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;*/
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #337ab7;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;	
+}
+
+.active>li>input{
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+
+.jumbotron{
+	padding: 20px 60px !important;	
+}
+
+#description{
+	width: 100%;
+	margin-bottom: 10px;	
+}
+
+.bg-red{
+	background: red;	
+}
+.bg-green{
+	background: green;	
+}
+
+.my-border{
+	border-bottom-width: 2px;
+ 	border-bottom-color: grey;
+  	border-bottom-style: solid;
+}
+
+.my-bg-header{
+	/*background: #D6E4F1 !important;	*/
+	background-image: url("/ServidorSIAR/images/cobweb4.png");
+	background-repeat:no-repeat;
+}
+
+.my-img{
+	width: 15%;
+	height: 15%;	
+	display:inline;
+}
+html, body{
+	height: 100%	
+}
+
+#wrap{
+	display:table;
+	height: 100%;
+	width: 100%;
+}
+
+#footer{
+	display: table-row;
+	height: 1px;
+	background-color: black;
+ 	color: #eeeeee;
+	font-size: 0.8em;
+}
+
+#footer .container{
+	padding-top: 5px;	
+}
+
+#logoutButton, #createButton{
+	margin-left: 12px;	
+}
+
+.jumbotron .hd-big{
+	font-size: 43px;	
+}
+
+.jumbotron .hd-small{
+	font-size: 23px;	
+	color:#808080;
+}
+
+.jumbotron{
+	text-align:center;	
+}
+
+#submitTd{
+	text-align:center;	
+}
+
+#menufilter{
+	margin-top: 10px;
+}
+
+#my-form-control{
+	display: inline;
+	width: 90%;
+}
+
+#my-scan-form{
+	text-align: center;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #999999;	
+}
+
+.instruction{
+	font-size: 0.7em;	
+}
+
+.my-tb-center{
+	text-align:center;	
+}
+
+.my-input{
+	width: 100%;	
+	border: none;
+}
+
+.checkboxcolumn{
+	width: 10%;	
+}
+.fullpathcolumn{
+	width:25%;	
+}
+
+.my-title{
+	font-size: 1.3em;
+}
+
+#my-list{
+	padding:0;
+	list-style-type: none;	
+}
+
+.my-info{
+	font-size: 0.9em;	
+}
+.my-conf{
+	font-size: 1.2em;	
+}
+
+#adminCol{
+	border-left: 2px solid;	
+}
+
+#admin-title{
+	margin-top: 50px;	
+}
+
+#github-link{
+	width: 60%;	
+}
+#github{
+	margin-left: 5px;	
+}
+
+#bg-installedprinter{
+	background-color: #99BCDB;
+	color: #eeeeee;	
+}
